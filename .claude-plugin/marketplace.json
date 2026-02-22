@@ -1,0 +1,25 @@
+{
+  "name": "claude-wrapped",
+  "owner": {
+    "name": "Akshit Gaur",
+    "email": "akshsgaur@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code Wrapped — Spotify Wrapped-style year-in-review for your Claude Code usage"
+  },
+  "plugins": [
+    {
+      "name": "claude-code-wrapped",
+      "source": "./",
+      "description": "Generates a beautiful HTML + PowerPoint year-in-review from your Claude Code session history. Shows your top projects, peak coding hours, persona, streaks, and more.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Akshit Gaur"
+      },
+      "homepage": "https://github.com/akshsgaur/claude-code-wrapped",
+      "repository": "https://github.com/akshsgaur/claude-code-wrapped",
+      "license": "MIT",
+      "keywords": ["wrapped", "analytics", "year-in-review", "stats", "productivity"]
+    }
+  ]
+}

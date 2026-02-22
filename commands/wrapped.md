@@ -1,19 +1,11 @@
 Generate a Spotify Wrapped-style year-in-review of your Claude Code usage.
 
-Find the wrapped.py script — check these locations in order:
-1. `~/.claude/wrapped.py`
-2. The directory where this plugin is installed
-
-Run the script:
+Find and run the wrapped.py script with this shell command:
 
 ```bash
-python3 ~/.claude/wrapped.py
-```
-
-If the script is not found at `~/.claude/wrapped.py`, tell the user to run the install script first:
-
-```bash
-cd <path-to-clone> && ./install.sh
+WRAPPED=$(find ~/.claude/plugins -name 'wrapped.py' 2>/dev/null | head -1); \
+[ -z "$WRAPPED" ] && WRAPPED="$HOME/.claude/wrapped.py"; \
+python3 "$WRAPPED"
 ```
 
 After the script completes, tell the user:
