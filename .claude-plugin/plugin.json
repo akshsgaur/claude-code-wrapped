@@ -1,0 +1,12 @@
+{
+  "name": "claude-code-wrapped",
+  "description": "Spotify Wrapped-style year-in-review for your Claude Code usage. Generates a beautiful HTML story + PowerPoint deck from your session history.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Akshit Gaur",
+    "url": "https://github.com/akshsgaur"
+  },
+  "homepage": "https://github.com/akshsgaur/claude-code-wrapped",
+  "repository": "https://github.com/akshsgaur/claude-code-wrapped",
+  "license": "MIT"
+}
