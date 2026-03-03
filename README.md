@@ -5,6 +5,7 @@
 Run one command. Get a beautiful, interactive recap of every project you built, every message you sent, and every late-night debugging session you survived — all from the conversation history Claude Code already keeps on your machine.
 
 ---
+![HBy-eD_a0AAZwnS](https://github.com/user-attachments/assets/5b51b16e-5d34-40bc-9e65-11be4aa27979)
 
 ## What it looks like
 
